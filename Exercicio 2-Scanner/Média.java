@@ -22,13 +22,9 @@ public class Primos {
          //Cálculos notas
          double notaSomada= notaUm+notaDois+notaTres+notaQuatro;
          double notaFinal= notaSomada / 4;
-         
-        if (notaFinal >=7) {
-            System.out.println("Sua media e " +notaFinal+ ", logo voce passou!");
-        }
-        else {
-            System.out.println("Sua media e "+notaFinal+ ", logo nao passou...");            
-        }
+
+          //Exibindo resultados
+         System.out.println("Sua media e:" +notaFinal);
         scanner.close();
     }
 }
