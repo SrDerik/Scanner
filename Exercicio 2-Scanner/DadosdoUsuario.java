@@ -10,7 +10,7 @@ public class DadosdoUsuario {
     public static void main(String[] args) {
         //Scanner
    Scanner scanner =new Scanner(System.in);
-        //Leitura notas
+        //Leitura dados
          System.out.print("Insira seus nome completo: ");
              String nome= scanner.nextLine();
          System.out.print("Insira sua data de nascimento: ");
