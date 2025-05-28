@@ -30,13 +30,12 @@ public class Primos {
                     }
                 }
             }
-
+            //Exibindo resultados
             if (Primo) {
                 System.out.println(numero + " é primo!");
             } else {
                 System.out.println(numero + " não é primo!");
             }
-
             System.out.print("Deseja verificar outro número? (s/n): ");
             continuar = scanner.next().charAt(0);
         } while (continuar == 's' || continuar == 'S');
